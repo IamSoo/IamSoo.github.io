@@ -1,4 +1,4 @@
-layout: sidebar
+layout: stacked
 style: light
 
 plugins:
@@ -17,34 +17,38 @@ defaults:
       layout: "post"
 
 projects:
-  sort_by: pushed
+  sort_by: stars
   # sort_by options:
   #   - pushed
   #   - stars
-  limit: 9
+  limit: 6
   exclude:
-    archived: false
+    archived: true
     forks: true
     projects:
-    # - repo-name
+#      - uber-pickups-data-analysis
+#      - Tic-Tac-Toe
+#      - SQLite-Python-DataInserting
+#      - 210CT-Coursework
+#      - BinarySeach-vs-LinearSearch
 
- social_media:
+social_media:
+  email: mailto:princesoonam@gmail.com
   # behance: your_username
   # dribbble: your_username
-  # facebook: your_username
-  # hackerrank: your_username
-  # instagram: your_username
+  #facebook: rithinn
+  #hackerrank: rithinch
+  #instagram: rithinn
   keybase: soonam
   linkedin: soonam-kalyan-panda
   # mastodon: your_username
-  # medium: your_username
-  stackoverflow: 7693704
+  #medium: rithin.chalumuri
+  stackoverflow: 11914067
   # telegram: your_username
-  twitter: SoonamKalyan
+  twitter: soonamkalyan
   # unsplash: your_username
   # vk: your_username
-  website: http://https://iamsoo.github.io/
-  # youtube: your_username
+  #youtube: channel/UCg0JyNdL8-x78Y7MUvIWoFQ
 
 topics:
   - name: Azure
